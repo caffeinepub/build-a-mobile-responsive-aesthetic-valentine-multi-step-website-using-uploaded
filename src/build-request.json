@@ -1,0 +1,47 @@
+{
+  "kind": "build_request",
+  "title": "Update deployed site link/app name to include “love”",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "text": "Update the website’s displayed name to include the word “love” by changing the HTML document title in frontend/index.html to a user-facing English title that contains “love” (this is what appears as the page/tab name and commonly as the shared link preview title).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Also edit a link name with love"
+        ]
+      },
+      "acceptanceCriteria": [
+        "frontend/index.html <title> text includes the word “love” (case-insensitive).",
+        "After deployment, the browser tab/page title displays the updated title containing “love”.",
+        "No other step/page copy or button labels are changed as part of this update."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files under frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, or frontend/src/components/ui.",
+    "Keep the existing multi-step flow, animations, and previously implemented content unchanged except for the requested link/app name update."
+  ],
+  "nonGoals": [
+    "Changing the deployed canister URL or any IC routing.",
+    "Adding new share buttons or changing existing “Copy Link”/footer wording beyond what is necessary to change the website name/title."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

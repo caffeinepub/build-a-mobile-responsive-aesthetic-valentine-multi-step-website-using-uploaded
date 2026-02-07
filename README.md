@@ -1,2 +1,3 @@
-# build-a-mobile-responsive-aesthetic-valentine-multi-step-website-using-uploaded
-Exported from Caffeine project: Build a mobile-responsive aesthetic Valentine multi-step website using uploaded puppy images
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

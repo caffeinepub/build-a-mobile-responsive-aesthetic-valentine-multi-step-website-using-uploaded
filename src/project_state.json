@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Update the romantic multi-step website by revising the Love Letter envelope text (remove prior “path” wording; add new emotional lines about manifesting a trip this year and enjoying 2026 together) and reorder the experience so the Valentine question comes earlier (ask him to be your Valentine first), followed by the Valentine note, and then the date ask, while keeping the overall aesthetic/animations the same.",
+  "architectural_notes": [
+    "Site should be fully mobile responsive.",
+    "Include gentle button animations (bounce/heartbeat, sparkles) and floating heart/sparkle background effects.",
+    "Interactive elements: clickable envelope opening to reveal note; playful hover behavior on Yes button; popup message on acceptance; three clickable red envelopes revealing different surprises.",
+    "Page flow update requested: ask him to be your Valentine first, then show the Valentine note, then the date ask; keep overall visuals/interactions unchanged."
+  ],
+  "known_issues": [
+    "Potential requirement conflict: prior scope says the date ask must not include any specific date; user requests mentioning ‘2026’, which may be considered a specific date/year."
+  ],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-fully-mobile-responsive-multi-step-romantic-website-experience-single-page-stepper-or-routes-with-the-following-sequence-and-navigation-buttons-matching-the-user-provided-copy-exactly-where-specified-1-welcome-page-2-rose-day-page-3-valentine-note-envelope-open-interaction-4-big-question-5-3-red-envelopes-surprise-page-6-final-message-page-each-step-must-have-a-clear-primary-button-to-proceed-to-the-next-step-as-described-by-the-user",
+      "title": "Create a fully mobile-responsive, multi-step romantic website experience (single-page stepper or routes) with the following sequence and navigation buttons, matching the user-provided copy exactly where specified: (1) Welcome page -> (2) Rose Day page -> (3) Valentine Note (envelope open interaction) -> (4) Big Question -> (5) 3 red envelopes surprise page -> (6) Final message page. Each step must have a clear primary button to proceed to the next step as described by the user.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-welcome-page-visuals-and-interactions-soft-pastel-pink-white-gradient-background-floating-hearts-and-sparkles-animation-centered-main-image-using-the-uploaded-roses-background-puppy-small-aesthetic-font-text-just-because-today-feels-right-a-primary-button-labeled-exactly-click-next-with-a-gentle-bounce-heartbeat-animation",
+      "title": "Implement the Welcome Page visuals and interactions: soft pastel pink/white gradient background; floating hearts and sparkles animation; centered main image using the uploaded roses-background puppy; small aesthetic font text: “Just because today feels right…”; a primary button labeled exactly “Click Next” with a gentle bounce/heartbeat animation.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-rose-day-page-use-the-uploaded-dog-with-rose-image-show-romantic-handwriting-style-text-exactly-happy-rose-day-my-love-and-every-rose-reminds-me-of-you-include-a-primary-button-labeled-exactly-next",
+      "title": "Implement the Rose Day page: use the uploaded dog-with-rose image; show romantic handwriting-style text exactly: “Happy Rose Day, my love 💓❤️🌹” and “Every rose reminds me of you.”; include a primary button labeled exactly “Next”.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-valentine-note-step-with-a-white-background-and-pink-envelope-graphics-display-heading-text-exactly-a-valentine-note-provide-a-clickable-pink-envelope-animation-on-click-tap-animate-the-envelope-opening-and-reveal-a-sweet-love-note-inside-with-a-primary-button-labeled-exactly-open-my-heart",
+      "title": "Implement the Valentine Note step with a white background and pink envelope graphics. Display heading text exactly “A Valentine Note 💌”. Provide a clickable pink envelope animation; on click/tap, animate the envelope opening and reveal a sweet love note inside, with a primary button labeled exactly “Open My Heart”.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-big-question-step-soft-blush-pink-background-with-tiny-hearts-floating-bold-romantic-heading-text-exactly-will-you-be-my-valentine-forever-and-ever-two-buttons-labeled-exactly-yes-and-obviously-yes-the-yes-button-moves-playfully-on-hover-and-on-mobile-playful-movement-on-tap-near-tap-and-the-obviously-yes-button-has-a-sparkle-animation-clicking-either-button-shows-a-popup-message-exactly-you-just-made-my-heart-the-happiest-i-love-you-endlessly-and-then-presents-a-primary-button-labeled-exactly-next-surprise",
+      "title": "Implement the Big Question step: soft blush pink background with tiny hearts floating; bold romantic heading text exactly “Will you be my Valentine forever and ever?”; two buttons labeled exactly “Yes” and “Obviously Yes”. The “Yes” button moves playfully on hover (and on mobile: playful movement on tap/near-tap), and the “Obviously Yes” button has a sparkle animation. Clicking either button shows a popup message exactly: “You just made my heart the happiest. I love you endlessly ❤️” and then presents a primary button labeled exactly “Next Surprise”.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-surprise-step-that-displays-exactly-three-red-envelopes-each-independently-clickable-to-open-when-opened-each-reveals-its-corresponding-content-1-love-letter-reveals-a-heartfelt-message-2-kisses-for-you-shows-heart-shaped-kiss-sticker-animations-3-ask-for-a-date-shows-a-cute-calendar-heart-sticker-but-must-not-include-any-specific-date-include-a-primary-button-labeled-exactly-one-last-thing-to-proceed",
+      "title": "Implement the Surprise step that displays exactly three red envelopes, each independently clickable to open. When opened, each reveals its corresponding content: (1) “Love Letter 💌” reveals a heartfelt message; (2) “Kisses For You 😘” shows heart-shaped kiss sticker animations; (3) “Ask for a Date 💖” shows a cute calendar + heart sticker (but must NOT include any specific date). Include a primary button labeled exactly “One Last Thing” to proceed.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-final-page-with-the-final-message-text-exactly-happy-valentine-s-day-my-forever-love-nthis-little-website-is-my-heart-wrapped-just-for-you-include-subtle-heart-sticker-animation-on-the-page-and-ensure-it-is-mobile-friendly-with-appropriate-spacing-and-legible-typography",
+      "title": "Implement the Final page with the final message text exactly: “Happy Valentine’s Day, my forever love 💖\\nThis little website is my heart, wrapped just for you.” Include subtle heart/sticker animation on the page and ensure it is mobile-friendly with appropriate spacing and legible typography.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-coherent-consistent-visual-theme-across-all-steps-a-soft-pastel-pink-cream-sticker-scrapbook-aesthetic-with-romantic-handwriting-style-headings-subtle-paper-grain-texture-rounded-cards-and-sticker-like-heart-rose-accents-avoid-blue-purple-apply-consistent-spacing-typography-hierarchy-and-button-styles-across-the-entire-flow",
+      "title": "Add a coherent, consistent visual theme across all steps: a soft pastel pink + cream “sticker scrapbook” aesthetic with romantic handwriting-style headings, subtle paper/grain texture, rounded cards, and sticker-like heart/rose accents (avoid blue/purple). Apply consistent spacing, typography hierarchy, and button styles across the entire flow.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-user-uploaded-images-to-the-frontend-as-static-assets-and-reference-them-by-filename-do-not-serve-via-backend-at-minimum-use-2d890fb92aceda3b60c22f6fd1544340-jpg-on-the-welcome-page-and-d57a21519166527bde92e518e80174df-jpg-on-the-rose-day-page-the-remaining-uploaded-screenshots-may-be-stored-as-assets-for-reference-but-should-not-be-required-for-core-ui-rendering",
+      "title": "Add the user-uploaded images to the frontend as static assets and reference them by filename (do not serve via backend). At minimum, use 2d890fb92aceda3b60c22f6fd1544340.jpg on the Welcome page and d57a21519166527bde92e518e80174df.jpg on the Rose Day page. The remaining uploaded screenshots may be stored as assets for reference but should not be required for core UI rendering.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-provide-an-in-app-share-help-section-or-footer-link-that-explains-how-to-copy-share-the-deployed-site-url-once-deployed-on-the-internet-computer-e-g-copy-link-button-that-copies-window-location-href",
+      "title": "Provide an in-app share/help section or footer link that explains how to copy/share the deployed site URL once deployed on the Internet Computer (e.g., “Copy link” button that copies window.location.href).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-valentine-note-envelope-the-pink-envelope-letter-content-to-remove-the-sentence-about-the-path-and-replace-it-with-revised-more-emotional-lines-that-include-i-manifest-this-year-to-have-trip-with-you-and-enjoy-this-2026-with-you-while-keeping-the-rest-of-the-site-s-overall-look-feel-and-interactions-the-same",
+      "title": "Update the Valentine Note envelope (the pink envelope letter content) to remove the sentence about “the path” and replace it with revised, more emotional lines that include: “I manifest this year to have trip with you” and “enjoy this 2026 with you”, while keeping the rest of the site’s overall look, feel, and interactions the same.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-reorder-the-step-page-flow-so-that-the-will-you-be-my-valentine-forever-and-ever-question-step-appears-before-the-valentine-note-step-and-ensure-the-ask-for-a-date-content-still-occurs-after-the-valentine-note-step-keeping-the-overall-experience-animations-and-existing-step-uis-otherwise-unchanged",
+      "title": "Reorder the step/page flow so that the “Will you be my Valentine forever and ever?” question step appears before the Valentine Note step, and ensure the “Ask for a Date” content still occurs after the Valentine Note step, keeping the overall experience, animations, and existing step UIs otherwise unchanged.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-website-s-displayed-name-to-include-the-word-love-by-changing-the-html-document-title-in-frontend-index-html-to-a-user-facing-english-title-that-contains-love-this-is-what-appears-as-the-page-tab-name-and-commonly-as-the-shared-link-preview-title",
+      "title": "Update the website’s displayed name to include the word “love” by changing the HTML document title in frontend/index.html to a user-facing English title that contains “love” (this is what appears as the page/tab name and commonly as the shared link preview title).",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create mobile-responsive multi-page romantic website with specified sections, animations, interactive buttons/popups, and envelope/card interactions; include two puppy-with-roses images; avoid adding an actual date and keep the big question as 'Will you be my Valentine forever and ever?'; provide a shareable link.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Revise the ‘Love Letter 💌’ envelope copy: remove the existing wording about “the path” and add more emotional lines including ‘I manifest this year to have trip with you’ and ‘enjoy this 2026 with you’.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Reorder the page/step sequence so the ‘Will you be my Valentine…’ question happens before the Valentine note, and ensure the ‘Ask for a Date’ comes after the note (keep overall theme/animations the same).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Change the deployed website link name/title to include the word “love” (i.e., adjust the displayed link/app name).",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Build a mobile-responsive aesthetic Valentine multi-step website using uploaded puppy images",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

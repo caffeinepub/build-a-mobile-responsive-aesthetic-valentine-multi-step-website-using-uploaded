@@ -1,0 +1,23 @@
+{
+  "frontend/src/App.tsx": "Main application component managing the 6-step Valentine's Day flow with state-driven navigation between Welcome, Rose Day, Big Question (now step 3), Valentine Note (now step 4), Surprise Envelopes, and Final steps.",
+  "frontend/src/steps/WelcomeStep.tsx": "Welcome page component featuring pastel pink gradient background, floating hearts/sparkles, centered puppy image with roses, romantic text, and animated \"Click Next\" button with heartbeat effect.",
+  "frontend/src/steps/RoseDayStep.tsx": "Rose Day page component displaying the puppy-with-rose image, handwriting-style romantic text with exact copy including emojis, and Next button to proceed.",
+  "frontend/src/steps/ValentineNoteStep.tsx": "Valentine Note page with clickable pink envelope animation that opens to reveal a heartfelt love letter and \"Open My Heart\" button.",
+  "frontend/src/steps/BigQuestionStep.tsx": "Big Question page with floating hearts background, romantic question text, playful \"Yes\" button that moves on hover/tap, sparkling \"Obviously Yes\" button, and success popup modal.",
+  "frontend/src/steps/SurpriseEnvelopesStep.tsx": "Surprise page displaying three independently openable red envelopes revealing Love Letter, Kisses animation, and Calendar sticker (no date text), with \"One Last Thing\" button.",
+  "frontend/src/steps/FinalStep.tsx": "Final page displaying the exact Valentine's message with subtle floating hearts animation, share link functionality, and mobile-friendly typography.",
+  "frontend/src/components/FloatingHeartsSparkles.tsx": "Reusable decorative component rendering CSS-animated floating hearts and sparkles with configurable density for background ambiance.",
+  "frontend/src/components/HandwritingHeading.tsx": "Simple wrapper component applying consistent handwriting-style font treatment to heading text across steps.",
+  "frontend/src/components/PinkEnvelope.tsx": "Interactive pink envelope component with smooth open/close animation, heart seal, and revealed love letter content featuring updated emotional text about manifesting trips and enjoying 2026 together.",
+  "frontend/src/components/PopupModal.tsx": "Modal dialog component displaying success message after Big Question acceptance with animated heart icon and \"Next Surprise\" action button.",
+  "frontend/src/components/RedEnvelope.tsx": "Reusable red envelope component with independent toggle state, open animation, and content slot for surprise reveals.",
+  "frontend/src/components/KissStickerBurst.tsx": "Animated component displaying bursting heart-shaped kiss stickers with staggered pop-in animations for the \"Kisses For You\" envelope.",
+  "frontend/src/components/CalendarSticker.tsx": "Calendar visual component with heart decoration showing date invitation concept without any specific date text.",
+  "frontend/src/components/ShareFooter.tsx": "Footer component with copy-to-clipboard functionality for sharing the site URL, success feedback, and caffeine.ai attribution with heart icon.",
+  "frontend/src/lib/utils.ts": "Utility module providing the cn() helper function for merging Tailwind CSS classes with clsx and tailwind-merge.",
+  "frontend/src/index.css": "Global stylesheet defining OKLCH-based pastel pink/rose/red color palette, handwriting font utilities, and custom keyframe animations (heartbeat, float, sparkle, kiss-pop, fade-in).",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with romantic color palette (rose/pink/red in OKLCH), handwriting font family, custom border radii, soft shadows, and animation utilities.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as backend has no methods; all data handled client-side with static assets.",
+  "frontend/src/config.ts": "Configuration module for loading environment settings and creating backend actor instances with Internet Identity integration.",
+  "frontend/index.html": "HTML entry point with updated document title \"A Valentine Love Story\" that includes the word \"love\" as requested."
+}

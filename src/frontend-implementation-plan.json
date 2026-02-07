@@ -1,0 +1,23 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update HTML document title to include “love”",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "summary": "Update the user-facing HTML document title to include the word “love” without changing any other UI copy or flow.",
+      "acceptanceCriteria": [
+        "frontend/index.html <title> text includes the word “love” (case-insensitive).",
+        "After deployment, the browser tab/page title displays the updated title containing “love”.",
+        "No other step/page copy or button labels are changed as part of this update."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Change the HTML <title> text to an English title that includes the word “love” (case-insensitive), ensuring this is the only user-visible text change and leaving the existing multi-step flow and animations untouched."
+        }
+      ]
+    }
+  ]
+}

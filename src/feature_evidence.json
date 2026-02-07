@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-website-s-displayed-name-to-include-the-word-love-by-changing-the-html-document-title-in-frontend-index-html-to-a-user-facing-english-title-that-contains-love-this-is-what-appears-as-the-page-tab-name-and-commonly-as-the-shared-link-preview-title",
+      "featureTitle": "Update the website’s displayed name to include the word “love” by changing the HTML document title in frontend/index.html to a user-facing English title that contains “love” (this is what appears as the page/tab name and commonly as the shared link preview title).",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
